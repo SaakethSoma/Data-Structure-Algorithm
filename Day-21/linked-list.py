@@ -42,7 +42,7 @@ class LinkedList:
         if self.head is None:
             self.head = new_node
             return
-
+            
         temp = self.head
         while temp.next:
             temp = temp.next
